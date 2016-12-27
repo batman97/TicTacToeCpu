@@ -1,2 +1,2 @@
 # TicTacToeCpu
-This is s single player tic tac toe game.
+This is a single player tic tac toe game.
