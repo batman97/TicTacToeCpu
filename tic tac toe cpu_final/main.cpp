@@ -537,8 +537,11 @@ int main()
 	string n2="CPU";
 	char ch1;
 	char ch2;
+	char c='y';
 	char board[3][3];
-	cout<<"Welcome to tic tac toe"<<endl<<endl;
+  while( c== 'y' || c=='Y')
+    { system("cls");
+        cout<<"Welcome to tic tac toe"<<endl<<endl;
 	cout<<"<CPU version>"<<endl<<endl;
 	cout<<"Please enter your name:"<<endl;
 	cin>>n1;
@@ -551,6 +554,11 @@ int main()
     printboard(board);
     cout<<endl;
     game(board,n1,ch1,n2,ch2);
+    cout<<endl<<"Do you want to restart the game (y/n)"<<endl;
+    cin>>c;
+
+
+    }
 
 	return 0;
 }
