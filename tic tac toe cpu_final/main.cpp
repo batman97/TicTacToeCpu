@@ -396,8 +396,8 @@ int dcpu(char board[3][3],int &a,int &num,char ch1, char ch2,bool &cpu)
              {
                 if((i+j)==2 && board[i][j]==' ')
                 {
-                  if(board[i][i]==' ')
-                   {board[i][i]=ch2;
+                  if(board[i][j]==' ')
+                   {board[i][j]=ch2;
                     num++;
                     a++;
                     cpu=true;
@@ -416,8 +416,8 @@ int dcpu(char board[3][3],int &a,int &num,char ch1, char ch2,bool &cpu)
              {
                 if((i+j)==2 && board[i][j]==' ')
                 {
-                  if(board[i][i]==' ')
-                   {board[i][i]=ch2;
+                  if(board[i][j]==' ')
+                   {board[i][j]=ch2;
                     num++;
                     a++;
                     cpu=true;
